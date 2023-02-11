@@ -386,6 +386,12 @@ input::placeholder {
     border-radius: 100px;
 }
 
+.goods-button:hover {
+    background: #75758A;
+    border-radius: 100px;
+    color: white;
+}
+
 .goods-button-second {
     display: flex;
     gap: 9px;
@@ -400,6 +406,11 @@ input::placeholder {
     line-height: 16px;
     border: none;
     color: #FFFFFF;
+}
+
+.goods-button-second:hover {
+    background: #4F9C2C;
+    border-radius: 100px;
 }
 
 .good-vector {
@@ -486,7 +497,7 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.foto-button-first:active {
+.foto-button-first:hover {
     background: #4F9C2C;
     border-radius: 100px;
 }
@@ -504,7 +515,7 @@ input::placeholder {
     color: #000000;
 }
 
-.foto-button-second:active {
+.foto-button-second:hover {
     background: #75758A;
     border-radius: 100px;
     color: #FFFFFF;
@@ -749,6 +760,10 @@ input::placeholder {
     margin: 40px 0 0 500px;
 }
 
+.gold-button:hover {
+    background: #4F9C2C;
+}
+
 .company__container {
     width: 100%;
     max-width: 1380px;
@@ -810,6 +825,10 @@ input::placeholder {
     border-radius: 100px;
     border: none;
     margin: 40px 0 80px 550px;
+}
+
+.company__button:hover {
+    background: #4F9C2C;
 }
 
 .karta__container {
@@ -915,7 +934,7 @@ input::placeholder {
 }
 
 .footer__top__wrapper button {
-    padding: 14px 0 12px 0;
+    padding: 14px 0 13px 0;
     width: 160px;
     font-weight: 700;
     font-size: 14px;
